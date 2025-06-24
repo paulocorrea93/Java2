@@ -11,6 +11,12 @@ public class ExemploArray {
         System.out.println("Nota 2: " + notas[1]);
         System.out.println("Nota 3: " + notas[2]);
 
+        int[] valores = {1, 2, 3, 4};
+
+        valores[2] = 30;
+
+        System.out.println(valores);
+
     }
 
 }
