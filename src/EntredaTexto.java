@@ -8,10 +8,10 @@ public class EntredaTexto {
 
         System.out.println("Digite seu nome:");
         String nome = entrada.nextLine();
+        System.out.println("Digite sua cidade:");
+        String cidade = entrada.nextLine();
 
-        System.out.println("Olá, " + nome);
-
-        entrada.close();
+        System.out.println("Olá " + nome + " você é de " + cidade);
 
     }
 
