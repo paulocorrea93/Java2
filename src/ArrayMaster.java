@@ -6,17 +6,27 @@ public class ArrayMaster {
         int[] invertidos = new int[numeros.length];
         int soma = 0;
 
-        int procurar = 7;
-        boolean achou = false;
 
-        for(int n : numeros){
-            if(n == 7){
-                achou = true;
-                break;
-            }
+        int[] primeiros3 = new int[3];
+
+        for (int i = 0; i < 3; i++){
+            primeiros3[i] = numeros[i];
         }
 
-        System.out.println(achou);
+        System.out.println(java.util.Arrays.toString(primeiros3));
+
+
+//        int procurar = 7;
+//        boolean achou = false;
+//
+//        for(int n : numeros){
+//            if(n == 7){
+//                achou = true;
+//                break;
+//            }
+//        }
+
+//        System.out.println(achou);
 
 //        for(int n : numeros){
 //            soma += n;
